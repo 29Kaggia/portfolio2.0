@@ -26,11 +26,11 @@ header img {
 
 
 header {
-    background-color: #333;
+    background-color: peru;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
-    animation: headerAnimation 5s infinite;
+   
 }
 
 header h1 {
@@ -102,6 +102,11 @@ header p {
 }
 /* styles.css */
 
+/* styles.css */
+
+/* Projects */
+/* styles.css */
+
 /* Projects */
 .projects {
     display: flex;
@@ -110,13 +115,19 @@ header p {
 }
 
 .project {
-    flex-basis: calc(10.3% - 10px); /* 33.33% width with some spacing */
+    flex-basis: calc(20% - 20px); /* 33.33% width with some spacing */
     margin-bottom: 20px;
-    background-color: #3498db;
+    background-color: pink !important;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0.3rem;
 }
+
+/* Adjust the margin, padding, and other styles as needed */
+
+
+/* Adjust the margin, padding, and other styles as needed */
+
 
 /* Adjust the margin, padding, and other styles as needed */
 
@@ -142,3 +153,31 @@ body {
 }
 
 /* Add your additional fancy styles here */
+/* styles.css */
+
+/* Navigation Styles */
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3498db; /* Change color on hover (optional) */
+}
